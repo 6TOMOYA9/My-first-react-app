@@ -7,7 +7,7 @@ const Counter = () => {
         <p>Counter: {counter}</p>
         <button onClick={() => setCounter(counter+1)}>add lawda</button>
         <button onClick={() => setCounter(0)}>Reset</button>
-        <button onClick={() => setCounter(counter+1)}>Remove</button>
+        <button onClick={() => setCounter(counter-1)}>Remove</button>
     </div>
   )
 }
